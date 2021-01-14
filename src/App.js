@@ -11,7 +11,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 
 function App() {
-  const [mglt, setMglt] = useState();
+  const [distance, setDistance] = useState();
   const [loading, setLoading] = useState(true);
   const [starships, setStarships] = useState({});
   const [stops, setStops] = useState([]);
@@ -43,10 +43,10 @@ function App() {
     const stopsAux = [];
     starships.forEach(starship => {
       const consumablesInHours = convertToHours(starship.consumables);
-      const maxLengthWithoutResuply = parseFloat(starship.MGLT) * consumablesInHours;
+      const maxDistanceWithoutResuply = parseFloat(starship.MGLT) * consumablesInHours;
       stopsAux.push({
         name: starship.name,
-        stops: Math.floor(mglt / maxLengthWithoutResuply)
+        stops: Math.floor(distance / maxDistanceWithoutResuply)
       });
     });
     setStops(stopsAux);
@@ -69,13 +69,12 @@ function App() {
       <Row>
         <Col md={12} style={{"paddingBottom": "30px"}}>
             <Form.Group controlId="formBasicEmail">
-              <Form.Label>Megalights</Form.Label>
+              <Form.Label>Distance:</Form.Label>
               <Form.Control
                 type="number"
-                onChange={event => setMglt(parseFloat(event.target.value))}
+                onChange={event => setDistance(parseFloat(event.target.value))}
                 onKeyPress={event => {
                   if (event.key === "Enter") {
-                    console.log("test")
                     calculate();
                   }
                 }}
