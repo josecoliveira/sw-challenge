@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sw-challenge/static/css/main.b2efe992.chunk.css",
-    "main.js": "/sw-challenge/static/js/main.ca0e02d2.chunk.js",
-    "main.js.map": "/sw-challenge/static/js/main.ca0e02d2.chunk.js.map",
+    "main.js": "/sw-challenge/static/js/main.24744e9e.chunk.js",
+    "main.js.map": "/sw-challenge/static/js/main.24744e9e.chunk.js.map",
     "runtime-main.js": "/sw-challenge/static/js/runtime-main.e6f4f214.js",
     "runtime-main.js.map": "/sw-challenge/static/js/runtime-main.e6f4f214.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/sw-challenge/static/css/2.ae9f1eb3.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.ae9f1eb3.chunk.css",
     "static/js/2.54d43964.chunk.js",
     "static/css/main.b2efe992.chunk.css",
-    "static/js/main.ca0e02d2.chunk.js"
+    "static/js/main.24744e9e.chunk.js"
   ]
 }
