@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sw-challenge/static/css/main.b2efe992.chunk.css",
+    "main.js": "/sw-challenge/static/js/main.ca0e02d2.chunk.js",
+    "main.js.map": "/sw-challenge/static/js/main.ca0e02d2.chunk.js.map",
+    "runtime-main.js": "/sw-challenge/static/js/runtime-main.e6f4f214.js",
+    "runtime-main.js.map": "/sw-challenge/static/js/runtime-main.e6f4f214.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/sw-challenge/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.54d43964.chunk.js": "/sw-challenge/static/js/2.54d43964.chunk.js",
+    "static/js/2.54d43964.chunk.js.map": "/sw-challenge/static/js/2.54d43964.chunk.js.map",
+    "static/js/3.17d9c0f3.chunk.js": "/sw-challenge/static/js/3.17d9c0f3.chunk.js",
+    "static/js/3.17d9c0f3.chunk.js.map": "/sw-challenge/static/js/3.17d9c0f3.chunk.js.map",
+    "index.html": "/sw-challenge/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/sw-challenge/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.b2efe992.chunk.css.map": "/sw-challenge/static/css/main.b2efe992.chunk.css.map",
+    "static/js/2.54d43964.chunk.js.LICENSE.txt": "/sw-challenge/static/js/2.54d43964.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6f4f214.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.54d43964.chunk.js",
+    "static/css/main.b2efe992.chunk.css",
+    "static/js/main.ca0e02d2.chunk.js"
+  ]
+}
